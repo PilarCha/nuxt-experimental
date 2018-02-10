@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <Toolbar/>
-    <nuxt/>
-  </div>
+  <section class="container">
+    <div>
+      <Toolbar/>
+      <nuxt/>
+    </div>
+  </section>
 </template>
 
 
