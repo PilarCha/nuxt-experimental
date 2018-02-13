@@ -1,14 +1,13 @@
 <template>
-  <div >
+  <div>
     <h1>Search iTunes</h1><br>
-    <form @submit.prevent="submitForm">
-      <input type="text"
-      placeholder="Enter artist name"
-      v-model="search"
-      autofocus>
-
-    </form>
-
+    <v-form @submit.prevent="submitForm">
+      <v-text-field
+        label="Search By Name"
+        v-model="search"
+        required
+      ></v-text-field>
+    </v-form>
   </div>
 </template>
 
