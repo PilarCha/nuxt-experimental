@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     submitForm() {
-      this.$router.push('results')
+      this.$router.push(`results/${this.search}`)
     }
   }
 }
